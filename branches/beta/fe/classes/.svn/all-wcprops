@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/53/branches/beta/fe/classes
+END
+Config.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/51/branches/beta/fe/classes/Config.class.php
+END
+Tangle.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/53/branches/beta/fe/classes/Tangle.class.php
+END
+Base.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/51/branches/beta/fe/classes/Base.class.php
+END
+OAuth.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/18/branches/beta/fe/classes/OAuth.class.php
+END

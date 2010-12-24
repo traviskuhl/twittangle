@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/25/branches/beta/fe/tmpl/api
+END
+auth.tmpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/25/branches/beta/fe/tmpl/api/auth.tmpl.php
+END
+register.tmpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/25/branches/beta/fe/tmpl/api/register.tmpl.php
+END
+api.tmpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/25/branches/beta/fe/tmpl/api/api.tmpl.php
+END

@@ -1,0 +1,11 @@
+RewriteEngine On
+
+
+# special
+RewriteRule ^(home|login|logout)/?(.*)?/?$						index.php?module=user&act=$1&path=$2 [L,QSA,PT]
+
+# rewrite
+RewriteRule ^(xhr|user)/?([a-zA-Z0-9]+)?/?(.*)?/?$		index.php?module=$1&act=$2&path=$3 [L,QSA,PT]
+
+# profile
+RewriteRule ^profile/([a-zA-Z0-9\_]+)?/?(.*)?/?$	index.php?module=index&act=profile&user=$1&path=$2 [L,QSA,PT] 

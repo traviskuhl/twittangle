@@ -1,0 +1,121 @@
+
+body.batch #batch-wrap {
+	display: block;
+	margin-top: 30px;
+}
+
+body.batch div#batch-help {
+	display: none;
+	padding: 20px 100px;
+	background: #eee;
+	border: solid 1px #ccc;
+	color: #555;
+	position: relative;
+	margin: 10px 30px;
+}
+
+	body.batch div#batch-help b {
+		display: block;
+		width: 7px;
+		height: 4px;
+		background: url(http://assets.ms-cdn.com/static/moviestring/images/v1/ccc-point.gif) no-repeat;
+		position: absolute;
+		top: -4px;
+		right: 20px;
+	}
+
+	body.batch div#batch-help em {
+		font-weight: bold;
+		font-size: 108%;
+	}
+
+	body.batch div#batch-help ul li {
+		list-style: decimal;
+		margin-left: 30px;
+		padding: 3px;
+	}
+
+body.batch .batch-loading {
+	display: none;
+}
+	
+	body.batch #yui-main .yui-u {
+		width: 50%;
+		float: left;
+	}
+
+	body.batch #yui-main .first {
+		width: 45%;
+		margin-right: 30px;
+	}
+
+div.group-wrap {
+	padding: 5px;
+	border: solid 1px #FFA43E;
+	margin: 0 10px;
+}
+
+ul.batch-list {
+	min-height: 62px;
+}
+
+ul.batch-list.active {
+	background: #eee;
+}
+
+ul.batch-list li {
+	position: relative;
+	float: left;
+	padding: 2px;
+	font-size: 77%;
+	text-align: center;
+	width: 48px;
+	height: 62px;
+	overflow: hidden;
+	margin: 4px;
+	border: solid 1px #eee;
+	cursor: pointer;
+}
+
+	ul.batch-list li img {
+		display: block;
+	}
+
+	ul.batch-list li em {
+		display: block;
+		padding: 3px 0;
+	}
+
+	ul.batch-list li.off {
+		opacity: .1;
+		filter: alpha(opacity=10);
+	}
+
+body.batch h3 {
+	clear: both;
+	background: #FFA43E;
+	padding: 5px;
+	color: #fff;
+	margin: 10px 10px 0;
+}
+
+	body.batch h3 a {
+		display: block;
+		color: #fff;
+		font-weight: bold;
+		font-size: 108%;
+	}
+
+div.group-wrap.closed {
+	display: none;
+}
+
+div.group-wrap form {
+	display: block;
+	padding: 5px;
+	text-align: center;
+}
+
+
+ul.batch-list:after,
+div.group-wrap:after { content:".";display:block;height:0;clear:both;visibility:hidden; font-size:0px; overflow: hidden}

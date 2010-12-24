@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/53/branches/beta/fe/modules
+END
+my.module.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/51/branches/beta/fe/modules/my.module.php
+END
+rss.module.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/22/branches/beta/fe/modules/rss.module.php
+END
+index.module.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/51/branches/beta/fe/modules/index.module.php
+END
+api.module.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/22/branches/beta/fe/modules/api.module.php
+END
+networks.module.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/22/branches/beta/fe/modules/networks.module.php
+END
+dir.module.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/22/branches/beta/fe/modules/dir.module.php
+END
+user.module.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/51/branches/beta/fe/modules/user.module.php
+END
+groups.module.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/51/branches/beta/fe/modules/groups.module.php
+END
+xhr.module.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/53/branches/beta/fe/modules/xhr.module.php
+END

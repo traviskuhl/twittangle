@@ -1,0 +1,52 @@
+8
+
+dir
+54
+https://twittangle.googlecode.com/svn/tags/2009-07-12/include
+https://twittangle.googlecode.com/svn
+
+
+
+2009-07-14T00:50:11.956944Z
+5
+travis.kuhl
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7d99e574-6f62-11de-8fcd-b1e6d76e070b
+
+Config.class.php
+file
+
+
+
+
+2009-07-14T00:49:12.000000Z
+33c37dbf2c958cf8a8edc5908cb82537
+2009-07-14T00:50:11.956944Z
+5
+travis.kuhl
+
+lib
+dir
+
+modules
+dir
+
+tmpl
+dir
+
+classes
+dir
+

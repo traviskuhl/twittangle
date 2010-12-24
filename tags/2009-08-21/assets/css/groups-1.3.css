@@ -1,0 +1,299 @@
+body.groups #page-content { 
+	background: transparent;
+}
+
+body.groups #groups-wrap {
+	display: block !important;
+}
+
+.defer-pic {
+	background: none !important;
+	visibility: hidden;
+}
+
+/* menu */
+body.groups ul.groups-menu {
+}
+
+	
+	body.groups ul.groups-menu li a.delete {	
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		width: 30px;
+		height: 100%;
+		display: block;
+		padding: 0;
+		background: url(http://ms-cdn.com/static/moviestring/images/v1/close.gif) center center no-repeat;		
+		overflow: hidden;
+		text-indent: -9999em;
+	}
+	
+	body.groups ul.groups-menu li form {
+	}
+
+	body.groups ul.groups-menu li form input {
+		border: none;
+		font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+		font-size: 92%;		
+		background: transparent;
+		cursor: pointer;
+		color: #333;
+	}
+	
+		body.groups ul.groups-menu li form input:hover {
+			color: #1E4F97;		
+		}
+	
+		body.groups ul.groups-menu li form input.on {
+			width: 90px;
+			border: inset 1px #ccc;					
+			padding: 4px;
+			background: #fff;			
+		}
+	
+		body.groups ul.groups-menu li form button {
+			display: none;
+		}
+
+ul.groups li {
+	position: relative;
+	font-size: 93%;
+}
+
+ul.groups li div.add-notice {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+	ul.groups li.active div.add-notice {
+		display: block;
+	}
+
+ul.groups li div.add-notice em {
+	position: relative;
+	display: block;
+	z-index: 1001;
+	text-align: center;
+	margin: 100px auto 0;
+	font-weight: bold;
+	padding: 20px;
+	background: #fff;
+}
+
+ul.groups li div.add-notice span {
+	background: yellow;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: .1;
+}
+
+ul.groups div.cnt {
+	position: relative;
+}
+
+	ul.groups div.cnt div.add-notice {
+		margin: 0px;
+	}
+
+	ul.groups li h3 {
+		font-size: 116%;
+		background: #1E4F97;
+		color: #fff;
+		font-weight: bold;
+		margin-bottom: 8px;
+		padding: 3px 10px;
+	}
+	
+	ul.groups li.loading h3 {
+		background-image: url(http://assets.ms-cdn.com/static/tangle/images/blueload.gif);
+		background-repeat: no-repeat;
+		background-position: 5px 3px;
+		padding-left: 25px;
+	}
+	
+	ul.groups div.cnt .in-group-wrap {
+		height: 30px;
+		overflow: hidden;
+	}	
+
+	ul.groups li.open div.cnt .in-group-wrap,
+	ul.groups li.active div.cnt .in-group-wrap {
+		height: auto;
+		overflow: visible;
+	}
+	
+	ul.groups li div.cnt .in-group-wrap ul li a,
+	ul.groups li div.cnt .in-group-wrap ul li em	 {
+		display: none;
+	}
+	
+ul.big-groups li.group-top {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+ul.big-groups {
+	margin: 10px;
+}
+
+	ul.big-groups li h3 {
+		background: #eee;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;		
+		color: #333;
+		margin-bottom: 3px;
+	}
+
+ul.group-list {
+	min-width: 100%;
+	min-height: 400px;
+}
+
+ul.group-list li {
+	width: 30%;
+	position: relative;
+	float: left;
+	margin: 10px 5px;
+	height: 80px;
+	overflow: hidden;
+	color: #888;
+}
+
+	#ygddfdiv img,
+	ul.group-list li img {
+		position: relative;
+		float: left;
+		width: 48px;
+		height: 48px;
+		margin-right: 5px;
+	}
+	
+	ul.group-list li a.remove {
+		display: block;
+		width: 11px;
+		height: 11px;
+		background: url(http://ms-cdn.com/static/moviestring/images/v1/close.gif) no-repeat center center;
+		position: absolute;
+		top: 35px;
+		right: 20%;
+		text-indent: -999px;
+		z-index: 99;
+	}
+	
+	#ygddfdiv a,
+	ul.group-list li a {
+		display: block;
+		font-weight: bold;
+		color: #888;
+		text-decoration: none;
+	}
+	
+	ul.group-list li {
+		text-align: center;
+	}
+	
+	ul.group-list li a.user-panel {
+		display: block;
+		width: 100%;
+		height: 50px;
+	}
+	
+	ul.group-list li a.user-panel img {	
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+	
+h3.add-friends {
+	font-size: 100%;
+	padding: 5px;
+	font-weight: bold;
+	padding-bottom: 0;		
+}	
+
+p.add-friends {
+	font-size: 77%;
+	color: #888;
+	margin: 0 5px 5px;
+}
+
+form.add-friends {
+	display: block;
+	height: 25px;
+	position: relative;
+}
+
+form.add-friends input {
+	display: block;
+	width: 180px !important;
+	border: none;
+	margin-left: 5px;
+	padding: 5px;
+	color: #444;
+	border-bottom: solid 1px #eee;
+}
+	
+div.add-friends {
+	clear: both;
+	max-height: 300px;
+	background: #fff;
+	overflow: auto;
+	margin: 0 5px;
+	padding: 5px;
+}	
+
+	.add-friends ul li {
+		border-bottom: solid 1px #eee;
+		padding: 5px;
+		clear: both;
+		font-size: 85%;
+	}
+
+	.add-friends ul li img {
+		width: 48px;
+		height: 48px;
+		position: relative;
+		float: left;
+		margin-right: 5px;
+	}
+	
+	.add-friends ul li a {
+		display: block;
+		font-weight: bold;
+		color: #333;
+		text-decoration: none;
+	}	
+	
+body.groups div.none {
+	text-align: center;
+	padding: 100px;
+	color: #666;
+}
+
+body.groups div.none h3 {
+	font-size: 116%;
+	font-weight: bold;
+}
+
+body.groups ul li.empty {
+	width: 100%;
+}
+
+form.add-friends:after,	
+ul.groups:after,
+ul.groups li:after,
+ul.group-list:after,	
+.add-friends ul li:after,
+.add-wrap ul:after,
+.add-wrap:after,
+ul.group-list li:after { content:".";display:block;height:0;clear:both;visibility:hidden; font-size:0px; overflow: hidden} 			
+	

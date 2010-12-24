@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/25/branches/beta/fe/tmpl/mobile
+END
+m.index.tmpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/25/branches/beta/fe/tmpl/mobile/m.index.tmpl.php
+END
+m.home.tmpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/25/branches/beta/fe/tmpl/mobile/m.home.tmpl.php
+END
+m.page.tmpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/25/branches/beta/fe/tmpl/mobile/m.page.tmpl.php
+END
